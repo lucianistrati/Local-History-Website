@@ -1,0 +1,169 @@
+* {
+  margin:0;
+  padding:0;
+}
+@media screen and (max-width: 767px){
+  .flex-container {
+      display: flex;
+  }    
+}
+@media screen and (min-width: 768px) and (max-width:1279px){
+  .flex-container {
+      display: flex;
+  }    
+}
+@media screen and (min-width: 1280px){
+  .flex-container {
+      display: flex;
+  }    
+}
+div[name="article"] {
+  background:red;
+  
+}
+a.button {
+    
+  background-color: #4CAF50;
+  border: none;
+  color: #00FF00;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer {
+  flex: 0 1 300px;
+}
+.wrapper {
+  margin: auto;
+  max-width: rem-calc(1200);
+}
+section {
+  color: orangered;
+  text-align:center;
+
+}
+title {
+  color: #7FFF00;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  font-weight: 450;
+  line-height: 23px;
+  margin: 0 0 60px 0;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width: 50%;
+}
+div.container {
+    width: 100%;
+    border: 2px solid gray;
+}
+header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+body {
+   background: url("HartaFizica.PNG");
+   background-repeat: repeat;
+   background-position: 50% 0%;
+   background-size: cover;
+
+}
+a.button1 {
+  background-color: #FFFF00; 
+  position: absolute;
+  top: 46%;
+  left: 30%;
+  border: none;
+  color:#000000; 
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:15px;
+  margin:5px 5px;
+  cursor:pointer; 
+}
+a.button1:hover {
+   background: #ffcc00;
+}  
+
+a.button2 {
+  background-color: #FFFF00; 
+  position: absolute;
+  top: 32%;
+  left: 36%;
+  border: none;
+  color:#000000; 
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:15px;
+  margin:5px 5px;
+  cursor:pointer; 
+}
+a.button2:hover {
+   background: #ffcc00;
+}  
+a.button3 {
+  background-color: #FFFF00; 
+  position: absolute;
+  top: 68%;
+  left: 25%;
+  border: none;
+  color:#000000; 
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:15px;
+  margin:5px 5px;
+  cursor:pointer; 
+}
+a.button3:hover {
+   background: #ffcc00;
+}  
+a.button4 {
+  background-color: #FFFF00; 
+  position: absolute;
+  top: 29%;
+  left: 20%;
+  border: none;
+  color:#000000; 
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:15px;
+  margin:5px 5px;
+  cursor:pointer; 
+}
+a.button4:hover {
+   background: #ffcc00;
+}  
+a.button5 {
+  background-color: #FFFF00; 
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  border: none;
+  color:#000000; 
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:15px;
+  margin:5px 5px;
+  cursor:pointer; 
+}
+a.button5:hover {
+   background: #ffcc00;
+}  

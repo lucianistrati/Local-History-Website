@@ -1,0 +1,91 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+@media screen and (max-width: 767px){
+    .flex-container {
+        display: flex;
+    }    
+}
+@media screen and (min-width: 768px )and( max-width:1279px){
+    .flex-container {
+        display: flex;
+    }    
+}
+@media screen and (min-width: 1280px){
+    .flex-container {
+        display: flex;
+    }    
+}
+.content {
+    flex: 1;
+    
+}
+
+.sidebar {
+    flex: 0 1;
+    
+}
+.wrapper {
+    margin: auto;
+    max-width: rem-calc(1200);
+}
+
+
+.content {
+    background:#000000;
+}
+
+.sidebar {
+    border: 1px solid #000000;
+    background: #673ab7;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    
+}
+h2 {
+ text-align:center;
+ 
+}
+body {
+   background: url("DSC_0114.JPG");
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: 50% 0%;
+   margin: 25px;
+}
+div.polaroid {
+  width: 40%;
+  height: 50%;
+  margin-bottom: 25px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.container {
+  text-align: center;
+  padding: 2% 4%;
+  background-color: white;
+}
+p {
+   color:	#FFA500;
+}
+article {
+    background: black;
+    padding: 1em;
+    overflow: hidden;  
+}
+h1 {
+    color: 	#FFA500;
+ text-align:center;
+}
