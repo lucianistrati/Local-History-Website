@@ -28,7 +28,7 @@
     "mongodb": "^3.4.1",
     "mongoose": "^5.8.4",
     "mustache": "^3.2.1",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "swig": "^1.4.2"
   },
   "devDependencies": {}
